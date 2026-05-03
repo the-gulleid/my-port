@@ -9,6 +9,7 @@ import {
   Terminal,
   Wrench,
   Users,
+  icons,
 } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import {
@@ -34,6 +35,8 @@ import {
   WindowsLogo,
   UbuntuLogo,
   LinuxLogo,
+
+
 } from "@/components/TechLogos";
 
 const skills = [
@@ -45,6 +48,9 @@ const skills = [
       { name: "TypeScript", icon: <TypeScriptLogo /> },
       { name: "Python", icon: <PythonLogo /> },
       { name: "Bash", icon: <BashLogo /> },
+      { name: "Java" },
+      { name: "GoLang" }
+
     ],
   },
   {
@@ -65,6 +71,9 @@ const skills = [
       { name: "Express", icon: <ExpressLogo /> },
       { name: "JWT", icon: <JWTLogo /> },
       { name: "Bcrypt", icon: <BcryptLogo /> },
+      { name: "PHP" },
+
+
     ],
   },
   {
@@ -74,6 +83,7 @@ const skills = [
       { name: "MongoDB", icon: <MongoDBLogo /> },
       { name: "Cloudinary", icon: <Cloud className="w-4 h-4" /> },
       { name: "AWS", icon: <AWSLogo /> },
+      { name: "MYSQL" }
     ],
   },
   {

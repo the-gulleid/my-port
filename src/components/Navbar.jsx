@@ -34,7 +34,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
               <Code2 className="w-8 h-8 text-white" aria-hidden="true" />
-              <span className="text-xl font-bold text-white">Niladri</span>
+              <span className="text-xl font-bold text-white">Gullied</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -84,11 +84,10 @@ const Navbar = () => {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`block px-3 py-2 text-gray-400 hover:text-white transition-colors ${
-                    location.pathname === link.path
+                  className={`block px-3 py-2 text-gray-400 hover:text-white transition-colors ${location.pathname === link.path
                       ? 'bg-white/10 backdrop-blur-sm text-white'
                       : ''
-                  }`}
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                   aria-current={location.pathname === link.path ? 'page' : undefined}
                 >

@@ -12,7 +12,9 @@ const Contact = () => {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      // Option 1: Using Formspree (RECOMMENDED - Free)
+      // Sign up at https://formspree.io/ to get your own form ID
+      const response = await fetch('https://formspree.io/f/mrbpzdjo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -21,28 +23,32 @@ const Contact = () => {
       if (response.ok) {
         setSubmitStatus('success')
         setFormData({ name: '', email: '', subject: '', message: '' })
+        // Clear success message after 5 seconds
+        setTimeout(() => setSubmitStatus('idle'), 5000)
       } else {
         setSubmitStatus('error')
+        setTimeout(() => setSubmitStatus('idle'), 5000)
       }
     } catch (error) {
       console.error('Error:', error)
       setSubmitStatus('error')
+      setTimeout(() => setSubmitStatus('idle'), 5000)
     } finally {
       setIsSubmitting(false)
     }
   }
 
   const contactInfo = [
-    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'code.niladri@gmail.com', link: 'mailto:code.niladri@gmail.com' },
-    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+916296554939', link: 'tel:+916296554939' },
-    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Kolkata, West Bengal, India' },
-    { icon: <Clock className="w-5 h-5" />, label: 'Time Zone', value: 'IST (UTC+5:30)' },
+    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'guleidmaxamed77@gmail.com', link: 'mailto:guleidmaxamed77@gmail.com' },
+    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+252634867444', link: 'tel:+252634867444' },
+    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Somaliland - Hargeisa' },
+    { icon: <Clock className="w-5 h-5" />, label: 'Time Zone', value: 'EAT (UTC+3)' }, // Fixed timezone for Somaliland
   ]
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/niladri-1' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://linkedin.com/in/niladri1' },
-    { icon: <MessageCircle className="w-5 h-5" />, label: 'WhatsApp', link: 'https://wa.me/+916296554939' },
+    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/the-gulleid' },
+    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://linkedin.com/in/guuleed-mohamed' }, // Fixed URL
+    { icon: <MessageCircle className="w-5 h-5" />, label: 'WhatsApp', link: 'https://wa.me/252634867444' }, // Fixed WhatsApp URL
   ]
 
   return (
@@ -131,10 +137,10 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="bg-gray-800/50 p-5 sm:p-6 rounded-xl backdrop-blur-sm"
             >
-              <h3 className="text-lg sm:text-xl font-semibold mb-4">Office Hours</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-4">Available Hours</h3>
               <div className="space-y-2 text-gray-400 text-sm sm:text-base">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM (IST)</p>
-                <p>Saturday: 10:00 AM - 2:00 PM (IST)</p>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM (EAT)</p>
+                <p>Saturday: 10:00 AM - 2:00 PM (EAT)</p>
                 <p>Sunday: Closed</p>
               </div>
             </motion.div>
@@ -203,14 +209,27 @@ const Contact = () => {
                 disabled={isSubmitting}
                 className="w-full px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-gray-100 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
               >
-                {isSubmitting ? 'Sending...' : (<><Send className="w-4 h-4" />Send Message</>)}
+                {isSubmitting ? (
+                  <>
+                    <svg className="animate-spin h-4 w-4 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Sending...
+                  </>
+                ) : (
+                  <>
+                    <Send className="w-4 h-4" />
+                    Send Message
+                  </>
+                )}
               </button>
 
               {submitStatus === 'success' && (
                 <motion.p
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="text-green-400 text-center text-sm sm:text-base"
+                  className="text-green-400 text-center text-sm sm:text-base bg-green-400/10 p-3 rounded-lg"
                 >
                   Message sent successfully! I'll get back to you soon.
                 </motion.p>
@@ -220,9 +239,9 @@ const Contact = () => {
                 <motion.p
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="text-red-400 text-center text-sm sm:text-base"
+                  className="text-red-400 text-center text-sm sm:text-base bg-red-400/10 p-3 rounded-lg"
                 >
-                  Something went wrong. Please try again.
+                  Something went wrong. Please try again or email me directly.
                 </motion.p>
               )}
             </form>

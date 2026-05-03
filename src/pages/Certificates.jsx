@@ -1,21 +1,15 @@
 import { motion } from "framer-motion";
 import { Award, Calendar, ExternalLink } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import typescriptPdf from "@/assets/files/certificates_pdf/TypeScript.pdf";
-import awsEcsPdf from "@/assets/files/certificates_pdf/aws_ecs.pdf";
-import javascriptPdf from "@/assets/files/certificates_pdf/javascript.pdf";
-import dockerPdf from "@/assets/files/certificates_pdf/docker_fundamentals.pdf";
-import pythonPdf from "@/assets/files/certificates_pdf/python.pdf";
-import cybersecurityPdf from "@/assets/files/certificates_pdf/cybersecurity_virtual_program.pdf";
-
+// 
 const certificates = [
   {
-    title: "Typescript Programming",
-    issuer: "Geekster",
+    title: "Javascript Programming",
+    issuer: "Geeks for Geeks",
     date: "22th April 2025",
-    link: typescriptPdf,
+    // link: typescriptPdf,
     description:
-      "Covers TypeScript fundamentals, including syntax, types. Includes practical examples and real-world applications.",
+      "Covers javascript fundamentals, including syntax, types. Includes practical examples and real-world applications.",
     skills: [
       "TypeScript",
       "JavaScript",
@@ -26,8 +20,8 @@ const certificates = [
   {
     title: "AWS ECS Deployment and Management",
     issuer: "KodeKloud",
-    date: "20th March 2025",
-    link: awsEcsPdf,
+    date: "20th sep 2025",
+    // link: awsEcsPdf,
     description:
       "Covers deploying and managing containers on AWS using ECS, including cluster management, load balancing, auto-scaling, and CI/CD integration.",
     skills: ["AWS ECS", "Cloud Computing", "DevOps", "CI/CD"],
@@ -36,7 +30,7 @@ const certificates = [
     title: "JavaScript Programming",
     issuer: "HackerRank",
     date: "18th February 2025",
-    link: javascriptPdf,
+    // link: javascriptPdf,
     description:
       "Validates JavaScript fundamentals, including syntax, functions, and problem-solving.",
     skills: ["JavaScript", "ES6", "Asynchronous Programming"],
@@ -45,7 +39,7 @@ const certificates = [
     title: "Docker Fundamentals",
     issuer: "KodeKloud",
     date: "18th February 2025",
-    link: dockerPdf,
+    // link: dockerPdf,
     description:
       "Teaches containerization, networking, security, and CI/CD with Docker.",
     skills: ["Docker", "Containerization", "CI/CD"],
@@ -54,19 +48,46 @@ const certificates = [
     title: "Python Programming",
     issuer: "HackerRank",
     date: "10 Oct 2023",
-    link: pythonPdf,
+    // link: pythonPdf,
     description:
       "Validates Python basics, including loops, functions, and data structures.",
     skills: ["Python", "Functions", "Data Structures"],
   },
   {
+    title: "React Development Certificate",
+    issuer: "HackerRank",
+    date: "10 Oct 2026",
+    // link: reactPdf,
+    description:
+      "Validates React fundamentals including components, hooks, state management, and API integration.",
+    skills: ["React.js", "Hooks", "State Management", "API Integration"],
+  },
+  {
     title: "Cybersecurity Virtual Program",
     issuer: "Forage",
     date: "10 Jul 2023",
-    link: cybersecurityPdf,
+    // link: cybersecurityPdf,
     description:
       "Focuses on cybersecurity threats, vulnerabilities, and risk mitigation.",
     skills: ["Cybersecurity", "Threat Mitigation", "Ransomware"],
+  },
+  {
+    title: "Full Stack Web Development Certificate",
+    issuer: "Telesom Academy",
+    date: "25 march 2026",
+    // link: telesomFullStackPdf,
+    description:
+      "Validates full stack web development skills including frontend with React, backend with Node.js/Express, and database management with MySQL/MongoDB.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "MongoDB",
+    ],
   },
 ];
 

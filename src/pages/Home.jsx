@@ -12,17 +12,17 @@ import {
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import useSWR from "swr";
-import cvPdf from "@/assets/files/cv_pdf/Niladri_Chatterjee(CV).pdf";
+import cvPdf from "@/assets/files/cv_pdf/GULIED-CV.pdf";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Home = () => {
   const [copied, setCopied] = useState(false);
-  const email = "code.niladri@gmail.com";
-  const whatsappNumber = "+916296554939";
+  const email = "guleidmaxamed77@gmail.com";
+  const whatsappNumber = "+00252634867444";
 
   const { data: githubData } = useSWR(
-    "https://api.github.com/users/niladri-1",
+    "https://github.com/the-gulleid",
     fetcher,
     {
       revalidateOnFocus: false,
@@ -37,7 +37,7 @@ const Home = () => {
     return `${Math.floor(count / 5) * 5}+`;
   }
 
-  const githubRepos = githubData?.public_repos || 0;
+  const githubRepos = githubData?.public_repos || 10;
   const displayRepos = formatRepoCount(githubRepos);
 
   const copyToClipboard = async () => {
@@ -68,7 +68,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Niladri Chatterjee
+          Gullied Mohamed
         </motion.h1>
         <motion.h1
           className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -76,7 +76,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          I design & code for web
+          I design & code for web and mobile
         </motion.h1>
 
         <motion.p
@@ -85,8 +85,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Software Developer specializing in Full Stack Development with
-          expertise in React.js, Node.js and modern Web Technologies.
+          Software Developer specializing in Full Stack and Mobile App Development, with expertise in React.js, Node.js, and modern web technologies.
         </motion.p>
 
         <motion.div
@@ -99,7 +98,7 @@ const Home = () => {
             <a
               href={cvPdf}
               target="_blank"
-              rel="noopener noreferrer"
+              rel=""
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
             >
               <FileDown className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
@@ -150,7 +149,7 @@ const Home = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <motion.a
-            href="https://github.com/niladri-1"
+            href="https://github.com/the-gulleid"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
@@ -162,7 +161,7 @@ const Home = () => {
             </div>
             <motion.div
               className="flex flex-col items-center"
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 10 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
@@ -192,7 +191,7 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-base sm:text-lg font-semibold">4000+</span>
+              <span className="text-base sm:text-lg font-semibold">40+</span>
               <span className="text-xs sm:text-sm text-gray-400">
                 LinkedIn Followers
               </span>

@@ -7,24 +7,17 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import codeAlphaImg from "@/assets/experience/codeAlpha_page.jpg";
-import bharatInternImg from "@/assets/experience/bharatIntern_page.jpg";
-import codeClauseImg from "@/assets/experience/codeClause_page.jpg";
-import oasisInfobyteImg from "@/assets/experience/oasisInfobyte_page.jpg";
-import codeAlphaPdf from "@/assets/files/experience_pdf/codeAlpha.pdf";
-import bharatInternPdf from "@/assets/files/experience_pdf/bharatIntern.pdf";
-import codeClausePdf from "@/assets/files/experience_pdf/codeClause.pdf";
-import oasisInfobytePdf from "@/assets/files/experience_pdf/oasisInfobyte.pdf";
+// 
 
 const experiences = [
   {
     title: "Software Engineering Intern",
     company: "Code Alpha",
     location: "Remote",
-    period: "Jun 2024 - Aug 2024",
+    period: "Jun 2025 - Aug 2025",
     type: "Internship",
-    image: codeAlphaImg,
-    certificateUrl: codeAlphaPdf,
+    // image: codeAlphaImg,
+    // certificateUrl: codeAlphaPdf,
     description: [
       "Optimized web application performance with JavaScript and React.js, achieving a 98% error-free rate",
       "Implemented advanced features on a React.js platform, resulting in a 40% surge in user interaction",
@@ -36,34 +29,34 @@ const experiences = [
     location: "Remote",
     period: "Jun 2024 - Jul 2024",
     type: "Internship",
-    image: bharatInternImg,
-    certificateUrl: bharatInternPdf,
+    // image: bharatInternImg,
+    // certificateUrl: bharatInternPdf,
     description: [
       "Designed 3 websites with CSS, JavaScript, React.js, Node.js and MongoDB, resulting in a 30% increase in user engagement",
       "Built a money tracker app using HTML, CSS, React.js, Node.js, and MongoDB, improving user financial tracking by 25%",
     ],
   },
   {
-    title: "Web Applications Intern",
-    company: "CodeClause",
+    title: "Mobile App devloper",
+    company: "Code S.Teach",
     location: "Remote",
     period: "Jun 2023 - Jul 2023",
     type: "Internship",
-    image: codeClauseImg,
-    certificateUrl: codeClausePdf,
+    // image: codeClauseImg,
+    // certificateUrl: codeClausePdf,
     description: [
-      "Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
+      "Engineered a real-time collaborative document editor using React-native, ",
       "Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%",
     ],
   },
   {
-    title: "Junior Web Developer",
+    title: "Junior mobile-App Developer",
     company: "Oasis Infobyte",
     location: "Remote",
-    period: "Jun 2023 - Jul 2023",
+    period: "OCT 2023 - Dec 2023",
     type: "Internship",
-    image: oasisInfobyteImg,
-    certificateUrl: oasisInfobytePdf,
+    // image: oasisInfobyteImg,
+    // certificateUrl: oasisInfobytePdf,
     description: [
       "Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
       "Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%",

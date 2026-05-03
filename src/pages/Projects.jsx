@@ -1,18 +1,18 @@
 import { Github, ExternalLink } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import project1 from "@/assets/projects_img/project-1.png";
-import project2 from "@/assets/projects_img/project-2.png";
-import project3 from "@/assets/projects_img/project-3.png";
-import project4 from "@/assets/projects_img/project-4.png";
+import project1 from "@/assets/projects_img/screen.png";
+import project2 from "@/assets/projects_img/screen3.png";
+import project3 from "@/assets/projects_img/screen2.png";
+import project4 from "@/assets/projects_img/screen.png";
 
 const projects = [
   {
-    title: "E-Mail Spam Detector",
+    title: "Local service profider ",
     description:
       "AI-powered Gmail client that detects spam, summarises emails, and lets you chat with your inbox — built with React, Node.js & Gemini API.",
     image: project4,
-    github: "https://github.com/niladri-1/EMail-Spam-Detector",
-    live: "https://spam-detector1.vercel.app",
+    github: "https://github.com/the-gulleid/",
+    live: "https://serv-project.vercel.app/",
     tags: [
       "MongoDB",
       "Express",
@@ -28,8 +28,8 @@ const projects = [
     description:
       "A modern Book Management System built with the MERN stack (React 19 & Tailwind 4.0). Features secure JWT authentication, protected routes, and full CRUD functionality.",
     image: project3,
-    github: "https://github.com/niladri-1/Bookstore-Auth-MERN",
-    live: "https://curd-auth-app.vercel.app",
+    github: "https://github.com/the-gulleid/",
+    live: "local-host",
     tags: [
       "MongoDB",
       "Express",
@@ -42,21 +42,21 @@ const projects = [
     ],
   },
   {
-    title: "NetScan-Pro",
+    title: "School managment system / web and mobile app",
     description:
       "Bash-based network scanning tool that provides live host discovery, port scanning, traceroute, and ping tests, featuring visually appealing ASCII banners and 80+ star at GitHub",
     image: project2,
-    github: "https://github.com/niladri-1/NetScan-Pro",
+    github: "https://github.com/the-gulleid/",
     live: "",
-    tags: ["Linux", "Bash", "Networking", "Monitoring", "NMAP", "Scripting"],
+    tags: ["React", "node", "express", "mysql ", "tailwind", "JWT", "Bcrypt", "REST API"],
   },
   {
     title: "Student Portfolio",
     description:
       "A professional portfolio template for engineering students. Easy to set up, fully customizable, and perfect for showcasing projects and skills.",
     image: project1,
-    github: "https://github.com/niladri-1/Frontend-develope-portfolio",
-    live: "https://techfolio1.vercel.app",
+    github: "https://github.com/the-gulleid/",
+    live: "",
     tags: ["Next", "Tailwind CSS", "TypeScript", "ThreeJS", "Responsive"],
   },
 ];

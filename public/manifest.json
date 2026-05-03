@@ -1,7 +1,7 @@
 {
-  "name": "Niladri Chatterjee - Full Stack Developer Portfolio",
-  "short_name": "Niladri Chatterjee",
-  "description": "Portfolio of Niladri Chatterjee - Full Stack Developer specializing in MERN stack, React.js, Node.js, Next.js, TypeScript, and modern web technologies.",
+  "name": "gullied mohamed - Full Stack Developer Portfolio",
+  "short_name": "gulleid Portfolio",
+  "description": "Portfolio of gulleid Portfolio - Full Stack Developer specializing in MERN stack, React.js, Node.js, Next.js, TypeScript, and modern web technologies.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -38,21 +38,36 @@
       "short_name": "Projects",
       "description": "Browse my portfolio projects",
       "url": "/projects",
-      "icons": [{ "src": "/favicon-192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/favicon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Contact Me",
       "short_name": "Contact",
       "description": "Get in touch with me",
       "url": "/contact",
-      "icons": [{ "src": "/favicon-192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/favicon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "View Skills",
       "short_name": "Skills",
       "description": "See my technical skills",
       "url": "/skills",
-      "icons": [{ "src": "/favicon-192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/favicon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
   "related_applications": [],

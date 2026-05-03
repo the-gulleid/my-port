@@ -18,44 +18,44 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 // Per-page SEO metadata
 const pageMeta = {
   "/": {
-    title: "Niladri Chatterjee - Full Stack Developer | MERN Stack Expert",
+    title: "Gulleid-moh - Full Stack Developer | MERN Stack Expert",
     description:
-      "Niladri Chatterjee — Full Stack Developer specializing in MERN stack, React.js, Node.js, Next.js and TypeScript. Based in Kolkata, India.",
+      "gulleid — Full Stack Developer specializing in MERN stack, React.js, Node.js, Next.js and TypeScript. Based in Soomaliland, Hargeisa.",
   },
   "/about": {
-    title: "About - Niladri Chatterjee | Full Stack Developer",
+    title: "About - Gulleid mohamed | Full Stack Developer",
     description:
-      "Learn about Niladri Chatterjee — B.Tech Computer Science graduate, Full Stack Developer with 3+ internships and 10+ projects. Based in Kolkata, India.",
+      "Learn about Gulleid mohamed — B.Tech Computer Science graduate, Full Stack Developer with 3+ internships and 10+ projects. Based in Soomaliland, Hargeisa.",
   },
   "/projects": {
-    title: "Projects - Niladri Chatterjee | Full Stack Developer Portfolio",
+    title: "Projects - Gulleid mohamed | Full Stack Developer Portfolio",
     description:
-      "Explore full-stack web projects built by Niladri Chatterjee using React.js, Node.js, MongoDB, Next.js and TypeScript.",
+      "Explore full-stack web projects built by Gulleid mohamed using React.js, Node.js, MongoDB, Next.js and TypeScript.",
   },
   "/skills": {
-    title: "Skills - Niladri Chatterjee | React, Node.js, MERN Stack",
+    title: "Skills - Gulleid mohamed | React, Node.js, MERN Stack",
     description:
-      "Technical skills of Niladri Chatterjee — React.js, Node.js, Express, MongoDB, Next.js, TypeScript, AWS, Docker and more.",
+      "Technical skills of Gulleid mohamed — React.js, Node.js, Express, MongoDB, Next.js, TypeScript, AWS, Docker and more.",
   },
   "/experience": {
-    title: "Experience - Niladri Chatterjee | Full Stack Developer",
+    title: "Experience - Gulleid mohamed | Full Stack Developer",
     description:
-      "Professional experience of Niladri Chatterjee including 3+ internships in full stack web development.",
+      "Professional experience of Gulleid mohamed including 3+ internships in full stack web development.",
   },
   "/education": {
-    title: "Education - Niladri Chatterjee | B.Tech Computer Science",
+    title: "Education - Gulleid mohamed | B.Tech Computer Science",
     description:
-      "Educational background of Niladri Chatterjee — B.Tech in Computer Science with 8.48 CGPA.",
+      "Educational background of Gulleid mohamed — B.Tech in Computer Science with 8.48 CGPA.",
   },
   "/certificates": {
-    title: "Certificates - Niladri Chatterjee | Developer Certifications",
+    title: "Certificates - Gulleid mohamed | Developer Certifications",
     description:
-      "Professional certifications and achievements of Niladri Chatterjee in web development and cloud technologies.",
+      "Professional certifications and achievements of Gulleid mohamed in web development and cloud technologies.",
   },
   "/contact": {
-    title: "Contact - Niladri Chatterjee | Hire a Full Stack Developer",
+    title: "Contact - Gulleid mohamed | Hire a Full Stack Developer",
     description:
-      "Get in touch with Niladri Chatterjee for freelance projects, job opportunities or collaborations. Based in Kolkata, India.",
+      "Get in touch with Gulleid mohamed for freelance projects, job opportunities or collaborations. Based in Soomaliland, Hargeisa.",
   },
 };
 
@@ -65,9 +65,9 @@ function SEOUpdater() {
 
   useEffect(() => {
     const meta = pageMeta[location.pathname] || {
-      title: "Niladri Chatterjee - Full Stack Developer",
+      title: "Gulleid mohamed - Full Stack Developer",
       description:
-        "Portfolio of Niladri Chatterjee — Full Stack Developer specializing in MERN stack and modern web technologies.",
+        "Portfolio of Gulleid mohamed — Full Stack Developer specializing in MERN stack and modern web technologies.",
     };
 
     document.title = meta.title;
@@ -85,14 +85,14 @@ function SEOUpdater() {
     if (ogUrl)
       ogUrl.setAttribute(
         "content",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://Gulleid1.vercel.app${location.pathname}`,
       );
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical)
       canonical.setAttribute(
         "href",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://Gulleid1.vercel.app${location.pathname}`,
       );
   }, [location]);
 

@@ -4,18 +4,17 @@
  */
 
 export const CONTACT_INFO = {
-  email: 'code.niladri@gmail.com',
-  phone: '+916296554939',
-  whatsapp: '+916296554939',
-  location: 'Kolkata, West Bengal, India',
-  timezone: 'IST (UTC+5:30)',
-  github: 'https://github.com/niladri-1',
-  linkedin: 'https://linkedin.com/in/niladri1',
-  twitter: '@niladri_dev',
+  email: 'guleidmaxamed77@gmail.com',
+  phone: '+00252634867444',
+  whatsapp: '+00252634867444',
+  location: 'hargeisa-somaliland',
+  github: 'https://github.com/the-gulleid',
+  linkedin: 'https://linkedin.com/in/Guuleed mohamed',
+  twitter: '@mohamed gulleid',
 }
 
 export const OFFICE_HOURS = {
-  weekday: 'Monday - Friday: 9:00 AM - 6:00 PM (IST)',
-  saturday: 'Saturday: 10:00 AM - 2:00 PM (IST)',
+  weekday: 'Monday - Friday: 9:00 AM - 6:00 PM ()',
+  saturday: 'Saturday: 10:00 AM - 2:00 PM ()',
   sunday: 'Sunday: Closed',
 }

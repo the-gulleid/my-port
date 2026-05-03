@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import profileImg from "@/assets/profile/profile.jpg";
-import cvPdf from "@/assets/files/cv_pdf/Niladri_Chatterjee(CV).pdf";
+import profileImg from "@/assets/projects_img/image1.png";
+import cvPdf from "@/assets/files/cv_pdf/GULIED-CV.pdf";
 
 const About = () => {
   const achievements = [
@@ -19,18 +19,21 @@ const About = () => {
     },
     {
       icon: <GraduationCap className="w-6 h-6" />,
-      title: "8.48 CGPA",
+      title: "",
       description: "Academic excellence",
     },
   ];
 
   const interests = [
     "Web Development",
+    "Mobile-App Devlopment",
+    "Backend",
     "UI/UX Design",
     "Cloud Computing",
     "DevOps",
     "Open Source",
     "Artificial Intelligence",
+    "Database administartion"
   ];
 
   return (
@@ -55,17 +58,13 @@ const About = () => {
         <ScrollAnimation className="space-y-6">
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
-              Hi! I'm a passionate full-stack developer with expertise in
+              Hi! I'm a passionate full-stack developer and Mobile App Developer with expertise in
               building modern web applications. My journey in tech started
               during my college years, where I discovered my love for creating
               innovative solutions through code.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I completed my B.Tech in Computer Science, maintaining a strong
-              academic record while actively engaging in real-world projects and
-              internships. This blend of theoretical knowledge and practical
-              experience has shaped my approach to problem-solving and software
-              development.
+              I am currently pursuing a B.Tech in Computer Science, maintaining a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience is shaping my approach to problem-solving and software development.
             </p>
             <p className="text-gray-300 leading-relaxed">
               I specialize in React, Node.js, and modern web technologies, with
@@ -82,9 +81,9 @@ const About = () => {
               </h3>
               <ul className="list-none space-y-3">
                 {[
-                  "Based in Kolkata, WB, India",
+                  "Based in Soomaliland",
                   "B.Tech in Computer Science",
-                  "CGPA: 8.48",
+                  "CGPA: waiting",
                 ].map((fact) => (
                   <motion.li
                     key={fact}
@@ -103,7 +102,7 @@ const About = () => {
               <a
                 href={cvPdf}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel=""
                 className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"
               >
                 Download CV

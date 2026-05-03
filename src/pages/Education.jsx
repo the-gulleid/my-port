@@ -1,34 +1,34 @@
 import { motion } from 'framer-motion'
 import { GraduationCap, Calendar, MapPin, BookOpen, Award, FileText, ExternalLink } from 'lucide-react'
 import { ScrollAnimation } from '@/components/ScrollAnimation'
-import collegeImg from '@/assets/education/college_img.jpg'
-import schoolImg from '@/assets/education/school_img.jpg'
-import bTechPdf from '@/assets/files/education_pdf/B Tech.pdf'
-import hsMarkSheetPdf from '@/assets/files/education_pdf/HS MARK SHEET.pdf'
+import collegeImg from '@/assets/education/image1.png'
+import schoolImg from '@/assets/education/image.png'
+// import bTechPdf from '@/assets/files/education_pdf/B Tech.pdf'
+// import hsMarkSheetPdf from '@/assets/files/education_pdf/HS MARK SHEET.pdf'
 
 const Education = () => {
   const educationData = [
     {
-      school: 'Bengal College of Engineering and Technology',
-      location: 'Durgapur, WB, India',
-      duration: 'July 2020 - June 2024',
+      school: 'University Of Hargeisa',
+      location: 'Aoomaaliland - Hargiesa ',
+      duration: 'Nov 2023 - ongoing',
       degree: 'B.Tech (Computer Science and Engineering)',
-      grade: 'CGPA: 8.48 (80%)',
+      grade: 'CGPA: waiting',
       image: collegeImg,
-      resultUrl: bTechPdf,
-      coursework: ["Software Development", 'DSA', 'OOPs', 'DBMS', 'AI', 'ML', 'OS', 'Networking'],
+      // resultUrl: bTechPdf,
+      coursework: ["Software Development", 'DSA', 'OOPs', 'DBMS', 'AI', 'ML', 'OS', 'Networking', 'CA'],
       description:
         'During my time at BCET, I have built a strong foundation in computer science, focusing on software development, problem-solving, and real-world applications. Engaging in hands-on projects, internships, and coding challenges has helped me enhance my technical and analytical skills.',
     },
     {
-      school: 'Birsingha Bhagabati Vidyalaya (H.S)',
-      location: 'Medinipur, WB, India',
-      duration: 'June 2018 - July 2019',
+      school: 'Abu Huriera secondry School (H.S)',
+      location: 'hargeisa somaliland',
+      duration: 'AUG 2019 - MAY 2023',
       degree: 'Higher Secondary (WBSC)',
       grade: 'Percentage: 79%',
       image: schoolImg,
-      resultUrl: hsMarkSheetPdf,
-      subjects: ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Computer Science'],
+      // resultUrl: hsMarkSheetPdf,
+      subjects: ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'engilish'],
       description:
         'My higher secondary education laid the foundation for my technical journey, strengthening my analytical thinking and problem-solving abilities. The strong emphasis on mathematics and computer science has been instrumental in shaping my passion for software development.',
     },
