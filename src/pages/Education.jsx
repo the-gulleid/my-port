@@ -10,7 +10,7 @@ const Education = () => {
   const educationData = [
     {
       school: 'University Of Hargeisa',
-      location: 'Aoomaaliland - Hargiesa ',
+      location: 'Soomaaliland - Hargiesa ',
       duration: 'Nov 2023 - ongoing',
       degree: 'B.Tech (Computer Science and Engineering)',
       grade: 'CGPA: waiting',
