@@ -67,10 +67,15 @@ const About = () => {
               I am currently pursuing a B.Tech in Computer Science, maintaining a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience is shaping my approach to problem-solving and software development.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I specialize in React, Node.js, and modern web technologies, with
-              a keen interest in creating performant and user-friendly
-              applications. My experience includes working with various startups
-              and contributing to open-source projects.
+              I specialize in React.js, Next.js, Node.js, Express.js, React Native,
+              JavaScript, TypeScript, Java, PHP, Python, and modern web & mobile
+              technologies, with strong expertise in building scalable, responsive,
+              and user-friendly applications. I also have experience working with
+              MongoDB, MySQL, and SQL Server for database design and management.
+
+              My focus includes full-stack development, RESTful API development,
+              mobile application development, database management, and creating
+              efficient digital solutions using modern development practices.
             </p>
           </div>
 
