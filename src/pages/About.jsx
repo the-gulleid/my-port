@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import profileImg from "@/assets/projects_img/image1.png";
+import profileImg from "@/assets/profile/sec.png";
 import cvPdf from "@/assets/files/cv_pdf/GULIED-CV.pdf";
 
 const About = () => {
