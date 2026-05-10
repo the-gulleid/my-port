@@ -76,7 +76,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-
+          I design & code for web and mobile
         </motion.h1>
 
         <motion.p
@@ -85,7 +85,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Software Developer specializing in Full Stack and Mobile App Development, with strong expertise in React.js, Node.js, Express.js, React Native, Java, PHP, Python, and C programming. Skilled in building modern, scalable, and responsive web and mobile applications, developing RESTful APIs, managing databases, and creating user-focused digital solutions using current technologies and best development practices..
+          Software Developer specializing in Full Stack and Mobile App Development, with expertise in React.js, Node.js, express , java , php , C-lang pythone react-native and modern web & mobile technologies please make as well orginized..
         </motion.p>
 
         <motion.div
