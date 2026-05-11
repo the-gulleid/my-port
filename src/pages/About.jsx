@@ -49,7 +49,7 @@ const About = () => {
           <div className="aspect-square overflow-hidden rounded-2xl">
             <img
               src={profileImg}
-              alt="Niladri Chatterjee"
+              alt="Gullied Mohamed"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>

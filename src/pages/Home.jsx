@@ -85,7 +85,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Software Developer specializing in Full Stack and Mobile App Development, with expertise in React.js, Node.js, express , java , php , C-lang pythone react-native and modern web & mobile technologies please make as well orginized..
+          Software Developer specializing in Full Stack and Mobile App Development, with expertise in React.js, Node.js, express , java , php , C-lang python react-native and modern web & mobile technologies please make as well orginized..
         </motion.p>
 
         <motion.div
@@ -175,7 +175,7 @@ const Home = () => {
           </motion.a>
 
           <motion.a
-            href="https://linkedin.com/in/niladri1"
+            href="https://linkedin.com/in/Guuleed mohamed "
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
