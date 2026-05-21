@@ -1,13 +1,17 @@
 import { motion } from "framer-motion";
 import { Award, Calendar, ExternalLink } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
+import Gfg from "../assets/files/certificates_pdf/GFG.png"
+import TLS from "../assets/files/certificates_pdf/tls.png"
+import React from "../assets/files/certificates_pdf/react.png"
+import Udemy from "../assets/files/certificates_pdf/udemy.png"
 // 
 const certificates = [
   {
     title: "Javascript Programming",
     issuer: "Geeks for Geeks",
-    date: "22th April 2025",
-    // link: typescriptPdf,
+    date: "18th May 2026",
+    link: Gfg,
     description:
       "Covers javascript fundamentals, including syntax, types. Includes practical examples and real-world applications.",
     skills: [
@@ -27,13 +31,29 @@ const certificates = [
     skills: ["AWS ECS", "Cloud Computing", "DevOps", "CI/CD"],
   },
   {
-    title: "JavaScript Programming",
-    issuer: "HackerRank",
+    title: "Web Development with JavaScript",
+    issuer: "Udemy",
     date: "18th February 2025",
-    // link: javascriptPdf,
+    link: Udemy,
     description:
-      "Validates JavaScript fundamentals, including syntax, functions, and problem-solving.",
-    skills: ["JavaScript", "ES6", "Asynchronous Programming"],
+      "Comprehensive training in full-stack web development using JavaScript, covering frontend and backend development, responsive UI design, DOM manipulation, ES6+ features, asynchronous programming, REST APIs, authentication and authorization, server-side development with Node.js and Express.js, database management using MongoDB and MySQL, and real-world application development practices.",
+    skills: [
+      "JavaScript",
+      "Web Development",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "Authentication",
+      "REST API",
+      "DOM Manipulation",
+      "ES6",
+      "Responsive Design",
+      "Asynchronous Programming",
+      "Frontend Development",
+      "Backend Development",
+      "Full-Stack Development"
+    ],
   },
   {
     title: "Docker Fundamentals",
@@ -56,26 +76,18 @@ const certificates = [
   {
     title: "React Development Certificate",
     issuer: "HackerRank",
-    date: "10 Oct 2026",
-    // link: reactPdf,
+    date: "27 May 2025",
+    link: React,
     description:
       "Validates React fundamentals including components, hooks, state management, and API integration.",
     skills: ["React.js", "Hooks", "State Management", "API Integration"],
   },
-  {
-    title: "Cybersecurity Virtual Program",
-    issuer: "Forage",
-    date: "10 Jul 2023",
-    // link: cybersecurityPdf,
-    description:
-      "Focuses on cybersecurity threats, vulnerabilities, and risk mitigation.",
-    skills: ["Cybersecurity", "Threat Mitigation", "Ransomware"],
-  },
+
   {
     title: "Full Stack Web Development Certificate",
     issuer: "Telesom Academy",
     date: "25 march 2026",
-    // link: telesomFullStackPdf,
+    link: TLS,
     description:
       "Validates full stack web development skills including frontend with React, backend with Node.js/Express, and database management with MySQL/MongoDB.",
     skills: [
