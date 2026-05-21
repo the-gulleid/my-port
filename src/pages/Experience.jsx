@@ -7,20 +7,21 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
+import Teacher from "../assets/files/experience_pdf/techer.png";
 // 
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
-    company: "Code Alpha",
-    location: "Remote",
-    period: "Jun 2025 - Aug 2025",
+    title: "Full Stack & Database Instructor",
+    company: "SRC Pre-University College",
+    location: "Hargeisa, Somaliland",
+    period: "April 2025 - December 2025",
     type: "Internship",
-    // image: codeAlphaImg,
-    // certificateUrl: codeAlphaPdf,
+    image: Teacher,
+    certificateUrl: Teacher,
     description: [
-      "Optimized web application performance with JavaScript and React.js, achieving a 98% error-free rate",
-      "Implemented advanced features on a React.js platform, resulting in a 40% surge in user interaction",
+      "Delivered instruction in full-stack web development and database fundamentals, including JavaScript, React.js, Node.js, and MySQL.",
+      "Guided students through practical projects, improving their understanding of modern web development workflows and best practices.",
     ],
   },
   {
