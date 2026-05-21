@@ -4,7 +4,7 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 import Gfg from "../assets/files/certificates_pdf/GFG.png"
 import TLS from "../assets/files/certificates_pdf/tls.png"
 import React from "../assets/files/certificates_pdf/react.png"
-import Udemy from "../assets/files/certificates_pdf/udemy.png"
+import Udemy from "../assets/files/certificates_pdf/Udemy.png"
 // 
 const certificates = [
   {
