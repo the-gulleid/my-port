@@ -9,6 +9,7 @@ import {
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import Teacher from "../assets/files/experience_pdf/techer.png";
 import admin from "../assets/files/experience_pdf/mobile.png";
+import code from "../assets/files/experience_pdf/code.png";
 // 
 
 const experiences = [
@@ -26,33 +27,34 @@ const experiences = [
     ],
   },
   {
-    title: "Backend Developer & mobile-App Developer",
+    title: "Backend & Mobile Application Developer",
     company: "CODE S.Teach",
     location: "Hargeisa, Somaliland",
-    period: "Jun 2024 - UP TO NOW ",
-    type: "FULL-TIME",
-    // image: bharatInternImg,
-    // certificateUrl: bharatInternPdf,
+    period: "Jun 2024 – Present",
+    type: "Full-time",
+    image: code,
+    certificateUrl: code,
     description: [
-      "Designed 3 websites with CSS, JavaScript, React.js, Node.js and MongoDB, resulting in a 30% increase in user engagement",
-      "Built a money tracker app using HTML, CSS, React.js, Node.js, and MongoDB, improving user financial tracking by 25%",
+      "Developed and deployed 3 full-stack web applications using React.js, Node.js, and MongoDB, improving user engagement by 30% through optimized UI/UX and performance enhancements.",
+      "Built a money tracking application using React.js, React-native, Node.js, and MySQL, enabling users to manage and monitor personal finances more effectively, improving usability by 25%.",
     ],
   },
 
 
+
   {
-    title: "Application Developer / administrator",
+    title: "Application Developer / Administrator",
     company: "Al-Qudus Schools",
-    location: "Remote",
-    period: "OCT 2023 - March 2025",
+    location: "Hargeisa, Somaliland",
+    period: "Oct 2023 – Mar 2025",
     type: "Internship",
     image: admin,
     certificateUrl: admin,
     description: [
-      "Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
-      "Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%",
+      "Built a real-time collaborative document editing system using Next.js, TypeScript, and Liveblocks, improving system responsiveness and reducing latency by 30%.",
+      "Developed and optimized a personal portfolio website using Next.js and Tailwind CSS, achieving a 40% performance improvement through efficient rendering and optimization techniques."
     ],
-  },
+  }
 ];
 
 const Experience = () => {
