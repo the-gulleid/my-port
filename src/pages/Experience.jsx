@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import Teacher from "../assets/files/experience_pdf/techer.png";
+import admin from "../assets/files/experience_pdf/mobile.png";
 // 
 
 const experiences = [
@@ -25,9 +26,9 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Development ",
+    title: "Backend Developer & mobile-App Developer",
     company: "CODE S.Teach",
-    location: "Remote",
+    location: "Hargeisa, Somaliland",
     period: "Jun 2024 - UP TO NOW ",
     type: "FULL-TIME",
     // image: bharatInternImg,
@@ -37,27 +38,16 @@ const experiences = [
       "Built a money tracker app using HTML, CSS, React.js, Node.js, and MongoDB, improving user financial tracking by 25%",
     ],
   },
+
+
   {
-    title: "Mobile App devloper",
-    company: "Code S.Teach",
+    title: "Application Developer / administrator",
+    company: "Al-Qudus Schools",
     location: "Remote",
-    period: "Jun 2023 - Jul 2023",
+    period: "OCT 2023 - March 2025",
     type: "Internship",
-    // image: codeClauseImg,
-    // certificateUrl: codeClausePdf,
-    description: [
-      "Engineered a real-time collaborative document editor using React-native, ",
-      "Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%",
-    ],
-  },
-  {
-    title: "Junior mobile-App Developer",
-    company: "Oasis Infobyte",
-    location: "Remote",
-    period: "OCT 2023 - Dec 2023",
-    type: "Internship",
-    // image: oasisInfobyteImg,
-    // certificateUrl: oasisInfobytePdf,
+    image: admin,
+    certificateUrl: admin,
     description: [
       "Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
       "Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%",
