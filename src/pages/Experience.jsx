@@ -16,7 +16,7 @@ const experiences = [
     company: "SRC Pre-University College",
     location: "Hargeisa, Somaliland",
     period: "April 2025 - December 2025",
-    type: "Internship",
+    type: "part-Time",
     image: Teacher,
     certificateUrl: Teacher,
     description: [
@@ -25,11 +25,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Development Intern",
-    company: "Bharat Intern",
+    title: "Full Stack Development ",
+    company: "CODE S.Teach",
     location: "Remote",
-    period: "Jun 2024 - Jul 2024",
-    type: "Internship",
+    period: "Jun 2024 - UP TO NOW ",
+    type: "FULL-TIME",
     // image: bharatInternImg,
     // certificateUrl: bharatInternPdf,
     description: [
