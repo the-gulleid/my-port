@@ -74,12 +74,12 @@ const certificates = [
     skills: ["Python", "Functions", "Data Structures"],
   },
   {
-    title: "React Development Certificate",
+    title: "Meta frontend devalepmot  Certificate",
     issuer: "HackerRank",
-    date: "27 May 2025",
-    link: React,
+    date: "16 April 2025",
+    // link:,
     description:
-      "Validates React fundamentals including components, hooks, state management, and API integration.",
+      "Validates All About frontend consopts and logics  including html , css , Git & gitHub , javascript react-components, hooks, state management, and API integration.",
     skills: ["React.js", "Hooks", "State Management", "API Integration"],
   },
 
